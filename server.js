@@ -27,3 +27,5 @@ app.post('/canvasData', async (req, res) => {
 });
 
 app.listen(port)
+
+module.exports(app);
