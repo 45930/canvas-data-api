@@ -10,10 +10,6 @@
     {
       "src": "/(.*)",
       "dest": "api/index.js",
-      "rewrites": {
-        "source": "/(.*)",
-        "destination": "/api"
-      },
       "headers": {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Methods": "GET,POST",
